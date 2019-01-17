@@ -1,0 +1,145 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Sidebar
+
+@import '~startbootstrap-simple-sidebar/css/simple-sidebar.css';
+
+@import '~animate.css/animate.min.css';
+
+@import '~axios-progress-bar/dist/nprogress.css';
+
+@import '~toastr/build/toastr.min.css';
+
+@import '~datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css';
+
+@import 'awselect';
+
+html, body {
+    height: 100%!important;
+}
+
+button.btn {
+    border-radius: 0!important;
+}
+
+input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+input[disabled] {
+    background-color: #ffffff!important;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+
+.form-control, select.form-control {
+    border-radius: 0!important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #d3d3d3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.card, .card-header, .card-footer, .card-body {
+    border-radius: 0!important;
+}
+
+button.btn {
+    text-transform: uppercase!important;
+}
+
+#video-list {
+    max-height: 289px;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-8 { font-size: 8px; }
+.material-icons.md-10 { font-size: 10px; }
+.material-icons.md-12 { font-size: 12px; }
+.material-icons.md-13 { font-size: 13px; }
+.material-icons.md-14 { font-size: 14px; }
+.material-icons.md-16 { font-size: 16px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+#nprogress .bar {
+    background: red !important;
+    height: 4px;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px red, 0 0 5px red !important;
+}
+
+.page-item.active > .page-link {
+    background-color: #495057!important;
+    color: #ffffff!important;
+    border-color: #495057!important;
+}
+
+.page-item > .page-link {
+    color: #495057!important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+    top: 12px;
+    left: 4px;
+    height: 14px;
+    width: 14px;
+    display: block;
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    text-align: center;
+    text-indent: 0 !important;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 14px;
+    content: '+';
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
